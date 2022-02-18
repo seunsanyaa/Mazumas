@@ -1,0 +1,73 @@
+.container{
+  display: grid;
+
+  padding-top: 38px;
+}
+
+.dateAndTransaction{
+  display: grid;
+  padding-bottom: 50px;
+}
+
+.transaction{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+  border-bottom: 1px solid rgba(4, 4, 6, 0.1);
+  padding-bottom: 25px;
+}
+
+.date{
+  font-size: 15px;
+  line-height: 17px;
+font-family: "Neue Haas";
+  color: #040406;
+
+}
+.time{
+  font-size: 13px;
+  line-height: 15px;
+  /* identical to box height */
+  padding-right: 50px;
+font-family: "Neue Haas";
+  color: rgba(4, 4, 6, 0.5);
+}
+
+.businessDiv{
+  display: flex;
+  align-items: center;
+  //justify-content: center;
+width: 267.95px;
+
+}
+
+.business{
+  display: grid;
+  padding-left: 17px;
+}
+
+.name{
+  font-size: 17px;
+  line-height: 19px;
+
+  color: #000000;
+  font-family: "Neue Haas";
+}
+
+.detail{
+  font-size: 13px;
+  line-height: 15px;
+  /* identical to box height */
+font-family: "Neue Haas";
+padding-top: 5px;
+  color: rgba(4, 4, 6, 0.5);
+}
+
+.debit{
+  font-size: 17px;
+  line-height: 20px;
+font-family: "Neue Haas Medium";
+
+  color: #040406;
+}

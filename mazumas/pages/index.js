@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import NavBar from "../components/NavBar/navbar";
+import Left from "../components/Left/left";
+import Right from "../components/Right/right";
 
 export default function Home() {
   return (
@@ -14,6 +16,11 @@ export default function Home() {
 
 
         <NavBar/>
+
+        <div className={styles.leftAndRight}>
+            <Left/>
+            <Right/>
+        </div>
 
     </div>
   )

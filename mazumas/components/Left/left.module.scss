@@ -1,0 +1,131 @@
+@font-face {
+  src: url("https://res.cloudinary.com/seunsanyaa/raw/upload/v1645131614/NeueHaasGroteskDisplay-Light_i5ivcj.otf");
+font-family: "Neue Haas Thin";
+}
+@font-face {
+  src: url("https://res.cloudinary.com/seunsanyaa/raw/upload/v1645131615/NeueHaasGroteskDisplay-Medium_l2vqso.otf");
+font-family: "Neue Haas Medium";
+}
+
+.container{
+  border-right: 1px solid rgba(4, 4, 6, 0.1);
+  height: 100vh;
+padding-top: 64px;
+
+padding-left: 100px;
+  padding-right: 75px;
+}
+
+.balanceSection{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 64px;
+
+}
+
+.balanceLeft{
+  display: grid;
+}
+
+.accountId{
+  font-family: "Neue Haas Thin";
+  //font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+
+
+  color: #040406;
+
+  opacity: 0.5;
+}
+.money{
+  //display: flex;
+  display: inline-flex;
+  //align-items: center;
+  padding-top: 12px;
+  //font-size: 55px;
+  line-height: 66px;
+  /* identical to box height */
+
+  color: #040406;
+  font-family: "Neue Haas Medium";
+  font-weight: 500;
+
+}
+
+.naira{
+  //vertical-align: center;
+
+
+}
+
+.balance{
+
+  font-size: 55px;
+  line-height: 66px;
+  ///* identical to box height */
+  //
+  //color: #040406;
+  //font-family: "Neue Haas Medium";
+  //font-weight: 500;
+  padding-top: 5.5px;
+  margin-left: 10px;
+}
+
+.chart{
+  display: flex;
+  align-items: center;
+
+  padding-top: 8px;
+}
+
+.h3{
+  margin: unset;
+  font-size: 13px;
+  line-height: 15px;
+  font-family: "Neue Haas Thin";
+  padding-left: 8px;
+
+}
+
+.number{
+  font-size: 13px;
+  line-height: 15px;
+  /* identical to box height */
+
+
+  color: #1DB954;
+}
+.balanceRight{
+  display: flex;
+  align-items: center;
+
+}
+.button{
+  width: 48px;
+  height: 48px;
+  border-radius: 50px;
+  border: unset;
+  background: white;
+  margin-right: 13px;
+}
+
+.add{
+  width: 48px;
+  height: 48px;
+  border-radius: 50px;
+  border: unset;
+  background: #0066F5;
+}
+.transactions{
+
+}
+.transactionsHeader{
+  font-size: 24px;
+  line-height: 27px;
+
+  color: #000000;
+  font-family: "Neue Haas";
+}
