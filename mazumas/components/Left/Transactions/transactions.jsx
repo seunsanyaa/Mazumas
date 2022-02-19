@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import transactionsstyles from './transactions.module.scss'
+import leftstyles from "../left.module.scss";
 
 export default function Transaction() {
     return (
@@ -33,7 +34,8 @@ export default function Transaction() {
                     <Image width={24} height={24} src="data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M14.1464 2.14645C14.0527 2.05268 13.9255 2 13.7929 2H4.5C4.22386 2 4 2.22386 4 2.5V21.5C4 21.7761 4.22386 22 4.5 22H19.5C19.7761 22 20 21.7761 20 21.5V8.20711C20 8.0745 19.9473 7.94732 19.8536 7.85355L14.1464 2.14645Z' stroke='black' stroke-width='1.5' stroke-miterlimit='10'/%3E%3Cpath d='M14 2V8H20' stroke='black' stroke-width='1.5' stroke-miterlimit='10' stroke-linecap='round'/%3E%3Cpath d='M16 13H8' stroke='black' stroke-width='1.5' stroke-miterlimit='10' stroke-linecap='round'/%3E%3Cpath d='M16 17H8' stroke='black' stroke-width='1.5' stroke-miterlimit='10' stroke-linecap='round'/%3E%3Cpath d='M10 9H9H8' stroke='black' stroke-width='1.5' stroke-miterlimit='10' stroke-linecap='round'/%3E%3C/svg%3E%0A"/>
 
 
-                    <span className={transactionsstyles.debit}>- ₦ 7,435.50</span>
+                    <div className={transactionsstyles.debitContainer}>    <Image className={leftstyles.naira} width={19} height={20} src="data:image/svg+xml,%3Csvg width='19' height='20' viewBox='0 0 19 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M10.7675 16V11.631H9.44148V10.543H10.7675V9.149H9.44148V8.061H10.7675V3.862H12.5355L14.1505 8.061H16.1565V3.862H17.4995V8.061H18.8255V9.149H17.4995V10.543H18.8255V11.631H17.4995V16H15.7145L14.0995 11.631H12.0935V16H10.7675ZM12.0935 10.543H13.6915L13.1815 9.149H12.0595L12.0935 10.543ZM16.1565 13.603H16.2245L16.1735 11.631H15.4595L16.1565 13.603ZM12.0595 8.061H12.7735L12.0595 5.953H11.9915L12.0595 8.061ZM15.0515 10.543H16.1905L16.1565 9.149H14.5415L15.0515 10.543Z' fill='%23040406'/%3E%3Cpath d='M0.817258 12.787H5.42426V10.798H0.817258V12.787Z' fill='%23040406'/%3E%3C/svg%3E%0A"/>
+                        <span className={transactionsstyles.debit}>7,435.50</span></div>
 
 
                 </div>
@@ -68,8 +70,8 @@ export default function Transaction() {
                     <Image width={24} height={24} src="data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M14.1464 2.14645C14.0527 2.05268 13.9255 2 13.7929 2H4.5C4.22386 2 4 2.22386 4 2.5V21.5C4 21.7761 4.22386 22 4.5 22H19.5C19.7761 22 20 21.7761 20 21.5V8.20711C20 8.0745 19.9473 7.94732 19.8536 7.85355L14.1464 2.14645Z' stroke='black' stroke-width='1.5' stroke-miterlimit='10'/%3E%3Cpath d='M14 2V8H20' stroke='black' stroke-width='1.5' stroke-miterlimit='10' stroke-linecap='round'/%3E%3Cpath d='M16 13H8' stroke='black' stroke-width='1.5' stroke-miterlimit='10' stroke-linecap='round'/%3E%3Cpath d='M16 17H8' stroke='black' stroke-width='1.5' stroke-miterlimit='10' stroke-linecap='round'/%3E%3Cpath d='M10 9H9H8' stroke='black' stroke-width='1.5' stroke-miterlimit='10' stroke-linecap='round'/%3E%3C/svg%3E%0A"/>
 
 
-                    <span className={transactionsstyles.debit}>- ₦ 4,812.00</span>
-
+                    <div className={transactionsstyles.debitContainer}>    <Image className={leftstyles.naira} width={19} height={20} src="data:image/svg+xml,%3Csvg width='19' height='20' viewBox='0 0 19 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M10.7675 16V11.631H9.44148V10.543H10.7675V9.149H9.44148V8.061H10.7675V3.862H12.5355L14.1505 8.061H16.1565V3.862H17.4995V8.061H18.8255V9.149H17.4995V10.543H18.8255V11.631H17.4995V16H15.7145L14.0995 11.631H12.0935V16H10.7675ZM12.0935 10.543H13.6915L13.1815 9.149H12.0595L12.0935 10.543ZM16.1565 13.603H16.2245L16.1735 11.631H15.4595L16.1565 13.603ZM12.0595 8.061H12.7735L12.0595 5.953H11.9915L12.0595 8.061ZM15.0515 10.543H16.1905L16.1565 9.149H14.5415L15.0515 10.543Z' fill='%23040406'/%3E%3Cpath d='M0.817258 12.787H5.42426V10.798H0.817258V12.787Z' fill='%23040406'/%3E%3C/svg%3E%0A"/>
+                        <span className={transactionsstyles.debit}>4,812.00</span></div>
 
                 </div>
 
@@ -97,7 +99,9 @@ export default function Transaction() {
                     <Image width={24} height={24} src="data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M14.1464 2.14645C14.0527 2.05268 13.9255 2 13.7929 2H4.5C4.22386 2 4 2.22386 4 2.5V21.5C4 21.7761 4.22386 22 4.5 22H19.5C19.7761 22 20 21.7761 20 21.5V8.20711C20 8.0745 19.9473 7.94732 19.8536 7.85355L14.1464 2.14645Z' stroke='black' stroke-width='1.5' stroke-miterlimit='10'/%3E%3Cpath d='M14 2V8H20' stroke='black' stroke-width='1.5' stroke-miterlimit='10' stroke-linecap='round'/%3E%3Cpath d='M16 13H8' stroke='black' stroke-width='1.5' stroke-miterlimit='10' stroke-linecap='round'/%3E%3Cpath d='M16 17H8' stroke='black' stroke-width='1.5' stroke-miterlimit='10' stroke-linecap='round'/%3E%3Cpath d='M10 9H9H8' stroke='black' stroke-width='1.5' stroke-miterlimit='10' stroke-linecap='round'/%3E%3C/svg%3E%0A"/>
 
 
-                    <span className={transactionsstyles.debit}>- ₦ 14,542.75</span>
+
+                    <div className={transactionsstyles.debitContainer}>    <Image className={leftstyles.naira} width={19} height={20} src="data:image/svg+xml,%3Csvg width='19' height='20' viewBox='0 0 19 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M10.7675 16V11.631H9.44148V10.543H10.7675V9.149H9.44148V8.061H10.7675V3.862H12.5355L14.1505 8.061H16.1565V3.862H17.4995V8.061H18.8255V9.149H17.4995V10.543H18.8255V11.631H17.4995V16H15.7145L14.0995 11.631H12.0935V16H10.7675ZM12.0935 10.543H13.6915L13.1815 9.149H12.0595L12.0935 10.543ZM16.1565 13.603H16.2245L16.1735 11.631H15.4595L16.1565 13.603ZM12.0595 8.061H12.7735L12.0595 5.953H11.9915L12.0595 8.061ZM15.0515 10.543H16.1905L16.1565 9.149H14.5415L15.0515 10.543Z' fill='%23040406'/%3E%3Cpath d='M0.817258 12.787H5.42426V10.798H0.817258V12.787Z' fill='%23040406'/%3E%3C/svg%3E%0A"/>
+                        <span className={transactionsstyles.debit}>14,542.75</span></div>
 
 
                 </div>
@@ -125,8 +129,9 @@ export default function Transaction() {
 
                     <Image width={24} height={24} src="data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M14.1464 2.14645C14.0527 2.05268 13.9255 2 13.7929 2H4.5C4.22386 2 4 2.22386 4 2.5V21.5C4 21.7761 4.22386 22 4.5 22H19.5C19.7761 22 20 21.7761 20 21.5V8.20711C20 8.0745 19.9473 7.94732 19.8536 7.85355L14.1464 2.14645Z' stroke='black' stroke-width='1.5' stroke-miterlimit='10'/%3E%3Cpath d='M14 2V8H20' stroke='black' stroke-width='1.5' stroke-miterlimit='10' stroke-linecap='round'/%3E%3Cpath d='M16 13H8' stroke='black' stroke-width='1.5' stroke-miterlimit='10' stroke-linecap='round'/%3E%3Cpath d='M16 17H8' stroke='black' stroke-width='1.5' stroke-miterlimit='10' stroke-linecap='round'/%3E%3Cpath d='M10 9H9H8' stroke='black' stroke-width='1.5' stroke-miterlimit='10' stroke-linecap='round'/%3E%3C/svg%3E%0A"/>
 
+                    <div className={transactionsstyles.debitContainer}>    <Image className={leftstyles.naira} width={19} height={20} src="data:image/svg+xml,%3Csvg width='19' height='20' viewBox='0 0 19 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M10.7675 16V11.631H9.44148V10.543H10.7675V9.149H9.44148V8.061H10.7675V3.862H12.5355L14.1505 8.061H16.1565V3.862H17.4995V8.061H18.8255V9.149H17.4995V10.543H18.8255V11.631H17.4995V16H15.7145L14.0995 11.631H12.0935V16H10.7675ZM12.0935 10.543H13.6915L13.1815 9.149H12.0595L12.0935 10.543ZM16.1565 13.603H16.2245L16.1735 11.631H15.4595L16.1565 13.603ZM12.0595 8.061H12.7735L12.0595 5.953H11.9915L12.0595 8.061ZM15.0515 10.543H16.1905L16.1565 9.149H14.5415L15.0515 10.543Z' fill='%23040406'/%3E%3Cpath d='M0.817258 12.787H5.42426V10.798H0.817258V12.787Z' fill='%23040406'/%3E%3C/svg%3E%0A"/>
+                        <span className={transactionsstyles.debit}>32,200.00</span></div>
 
-                    <span className={transactionsstyles.debit}>- ₦ 32,200.00</span>
 
 
                 </div>

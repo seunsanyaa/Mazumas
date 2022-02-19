@@ -120,3 +120,12 @@
   display: grid;
   grid-template-columns: 65% 35%;
 }
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+  .leftAndRight{
+;
+    grid-template-columns: 60% 40% !important;
+  }
+
+
+}

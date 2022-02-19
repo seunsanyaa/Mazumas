@@ -1,0 +1,111 @@
+
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+  .container{
+
+    padding-left: 20px !important;
+    padding-right: 30px !important;
+  }
+
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .container{
+
+
+    padding-left: 45px !important;
+    padding-right:40px !important;
+  }
+
+}
+
+.container{
+  display: block;
+  padding-left: 75px;
+  padding-right: 100px;
+  padding-top: 64px;
+  max-width:600px
+}
+
+.card{
+  display:block;
+}
+.cardName{
+  font-family: "Neue Haas";
+  font-size: 24px;
+  line-height: 27px;
+
+  color: #000000;
+
+}
+
+.cardImage{
+margin-top:28px
+}
+
+.analyticsDiv{
+  padding-top: 64px;
+}
+.analyticsHeader{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 28px;
+}
+
+.analytics{
+  font-size: 24px;
+  line-height: 27px;
+font-family: "Neue Haas";
+  color: #040406
+}
+
+.seeall{
+  font-size: 15px;
+  line-height: 17px;
+font-family: "Neue Haas";
+  color: #0066F5;
+}
+
+.chartsDiv{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Chart{
+  background: white;
+  padding-left: 20px;
+padding-right: 20px;
+  width: 160px;
+  border-radius: 12px;
+  padding: 20px 20px;
+}
+.Chart2{
+  background: white;
+
+  width: 160px;
+  margin-left: 20px;
+  border-radius: 12px;
+
+  padding: 20px 20px;
+}
+.priceDiv{
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 35px;
+}
+.chartHead{
+  font-size: 13px;
+  line-height: 15px;
+  /* identical to box height */
+
+font-family: "Neue Haas";
+  color: rgba(4, 4, 6, 0.5);
+}
+.chartPrice{
+  font-size: 17px;
+  line-height: 20px;
+padding-left: 4px;
+  color: #040406;
+  font-family: "Neue Haas Medium";
+  padding-top: 2px;
+}

@@ -56,7 +56,7 @@ export default function NavBar() {
 
         <div className={navstyles.nameAndImage}>
 
-            <Image width={40} height={40} src="https://res.cloudinary.com/seunsanyaa/image/upload/v1645120579/Ellipse_1_1_uyk4bt.png"/>
+            <Image width={40} height={40} src="https://res.cloudinary.com/seunsanyaa/image/upload/v1645259799/Ellipse_1_2_sbs8mb.png"/>
 
             <div className={navstyles.name}>
 
